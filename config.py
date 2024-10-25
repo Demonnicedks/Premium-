@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6928358007:AAEaonCBZ4GRDkl0gA7yEUZrUmBJuJEAJOs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8167509992:AAFKCwwnAvPFRGpYJlMXYLZhxzL2alKWq0k")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "19863702"))
@@ -19,20 +19,20 @@ APP_ID = int(os.environ.get("APP_ID", "19863702"))
 API_HASH = os.environ.get("API_HASH", "6d48cb362a97a43cfc944fd5c0f917f9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002073793218"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002254520923"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1895952308"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7139599860"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Mehtadmphta33:Mehtab1234@cluster0.2kwcnnv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "fair")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sy465143:B7UENblZjA3y3xAG>@cluster0.xeac9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002441410626"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7383701906").split()):
+    for x in (os.environ.get("ADMINS", "6885162066 5558788960").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
