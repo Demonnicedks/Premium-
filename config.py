@@ -13,10 +13,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8167509992:AAFKCwwnAvPFRGpYJlMXYLZhxzL2alKWq0k")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "19863702"))
+APP_ID = int(os.environ.get("APP_ID", "23930146"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "6d48cb362a97a43cfc944fd5c0f917f9")
+API_HASH = os.environ.get("API_HASH", "39a09d04b37eadf819d6cc64aedb9e44")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002254520923"))
@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7139599860"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sy465143:B7UENblZjA3y3xAG>@cluster0.xeac9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://corn:corn@corn.4u3ct.mongodb.net/?retryWrites=true&w=majority&appName=Corn")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbottt")
 
 #force sub channel id, if you want enable force sub
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = ""
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(5558788960)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
